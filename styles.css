@@ -1,0 +1,87 @@
+.tekst {}
+
+/*** FORSIDE ****/
+body {
+    background-color: #fcf0de;
+    background-image: url("illustrator/baggrungpink.svg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+#stortbillede h1 {
+    font-family: 'the unseen';
+    color: #933a68;
+    font-size: 8rem;
+}
+
+.stortbillede {
+    order: <4>;
+}
+
+h1 {
+    color: antiquewhite;
+    font-family: 'the unseen';
+    font-size: 12rem;
+}
+
+.bokse {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/**#baggrundtop .baggrundpink {
+    background-image: url("illustrator/baggrungpink.svg");
+    background-size: 100% auto; **/
+
+
+#stortbillede .mig {
+    width: 500px;
+    height: 50%;
+    flex-grow: <1>;
+
+}
+
+#bokse .ommig {
+    width: 170px;
+    height: 50%;
+    cursor: pointer;
+
+}
+
+#bokse .videoer {
+    width: 150px;
+    height: 50%;
+    cursor: pointer;
+}
+
+
+#bokse .hjemmesider {
+    width: 200px;
+    height: 50%;
+    cursor: pointer;
+}
+
+
+#bokse .spil {
+    width: 180px;
+    height: 50%;
+    cursor: pointer;
+}
+
+#bokse .apps {
+    width: 180px;
+    height: 50%;
+    cursor: pointer;
+}
+
+
+/******* FOOTER **********/
+
+footer {
+    font-family: 'the unseen', sans-serif;
+    color: #e585cf;
+    font-size: 0.8em
+}
